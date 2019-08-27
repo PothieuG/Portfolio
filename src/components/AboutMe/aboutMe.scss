@@ -2,6 +2,43 @@
   margin: 1em 0;
   min-height: 100vh;
   padding: 1em 0;
-  background-clip: content-box;
-  background-color: green;
+
+  &-title {
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+  }
+
+  &-description {
+    
+    &-littleDescription {
+      padding: 1em 1.5em 0.5em;
+      font-weight: bold;
+    }
+  
+    &-mainDescription {
+      padding: 0.5em 1.5em 1em;
+    }
+  }
+
+
+  &-interests {
+
+    &-title {
+      font-size: 1.25em;
+    }
+
+    &-ul {
+
+      padding-top: 0.5em;
+
+      &-list {
+        padding: 0.1em 1.5em;
+
+        &-italic {
+          font-style: italic;
+        }
+      }
+    }
+  }
 }

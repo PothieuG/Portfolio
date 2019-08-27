@@ -2,6 +2,27 @@
   margin: 1em 0;
   min-height: 100vh;
   padding: 1em 0;
-  background-clip: content-box;
-  background-color: lightpink;
+
+  &-title {
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+  }
+
+  &-cards {
+
+    margin: 1.5em 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    &-card {
+      width: 45%;
+      margin: 2.5%;
+
+      &-image {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
 }
