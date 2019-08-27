@@ -1,12 +1,20 @@
 .nav {
-  border: 1px solid blue;
+  background-color: rgb(0, 162, 255);
   display: flex;
   flex-direction: column;
   height: calc(100vh - 2em);
   align-items: center;
+  color: rgb(51, 51, 51);
 
   &-name {
     margin-top: 40vh;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  &-function {
+    font-size: 1em;
+    margin-top: 0.2em;
   }
 
   &-socials {
@@ -19,9 +27,13 @@
     display: flex;
     flex-direction: row;
     margin-top: 30vh;
+
+    &-aboutme, &-work, &-experience, &-education, &-skills, &-contact {
+      cursor: pointer;
+    }
   }
 
   &-arrow_down {
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
 }

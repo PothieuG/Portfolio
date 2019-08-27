@@ -18,7 +18,7 @@ const Nav = () => (
         Developer
       </div>
       <div className="nav-socials">
-        <div className="nav-socials-linkedin">LinkeDin</div>
+        <div className="nav-socials-linkedin"><i className="fab fa-linkedin"></i></div>
         <div className="nav-socials-facebook">Facebook</div>
         <div className="nav-socials-twitter">Twitter</div>
         <div className="nav-socials-instagram">Instagram</div>
@@ -29,7 +29,7 @@ const Nav = () => (
         <AnchorLink href="#work" className="nav-subnav-work">Work</AnchorLink>
         <AnchorLink href="#experience" className="nav-subnav-experience">Experience</AnchorLink>
         <AnchorLink href="#education" className="nav-subnav-education">Education</AnchorLink>
-        <AnchorLink href="#skills" className="nav-subnav-skils">Skills</AnchorLink>
+        <AnchorLink href="#skills" className="nav-subnav-skills">Skills</AnchorLink>
         <AnchorLink href="#contact" className="nav-subnav-contact">Contact</AnchorLink>
       </div>
       <div className="nav-arrow_down">Arrow Down</div>

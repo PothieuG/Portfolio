@@ -15,13 +15,15 @@ import './app.scss';
 // == Composant
 const App = () => (
   <div id="app">
-    <Nav />
-    <AboutMe />
-    <Work />
-    <Experience />
-    <Education />
-    <Skills />
-    <Contact />
+    <div className="app">
+      <Nav />
+      <AboutMe />
+      <Work />
+      <Experience />
+      <Education />
+      <Skills />
+      <Contact />
+    </div>
   </div>
 );
 
