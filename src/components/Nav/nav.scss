@@ -1,0 +1,27 @@
+.nav {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 2em);
+  align-items: center;
+
+  &-name {
+    margin-top: 40vh;
+  }
+
+  &-socials {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+  }
+
+  &-subnav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30vh;
+  }
+
+  &-arrow_down {
+    margin-top: 5vh;
+  }
+}
