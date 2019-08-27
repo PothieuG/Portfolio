@@ -23,11 +23,21 @@ const App = () => (
       <Fade>
         <AboutMe />
       </Fade>
-      <Work />
-      <Experience />
-      <Education />
-      <Skills />
-      <Contact />
+      <Fade>
+        <Work />
+      </Fade>
+      <Fade>
+        <Experience />
+      </Fade>
+      <Fade>
+        <Education />
+      </Fade>
+      <Fade>
+        <Skills />
+      </Fade>
+      <Fade>
+        <Contact />
+      </Fade>
     </div>
   </div>
 );
