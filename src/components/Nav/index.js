@@ -4,6 +4,9 @@ import React from 'react';
 // == Import : local
 import './nav.scss';
 
+// AnchorLink Scroll
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 // == Composant
 const Nav = () => (
   <div id="nav">
@@ -22,12 +25,12 @@ const Nav = () => (
         <div className="nav-socials-github">Github</div>
       </div>
       <div className="nav-subnav">
-        <div className="nav-subnav-aboutme">About Me</div>
-        <div className="nav-subnav-work">Work</div>
-        <div className="nav-subnav-experience">Experience</div>
-        <div className="nav-subnav-education">Education</div>
-        <div className="nav-subnav-skils">Skills</div>
-        <div className="nav-subnav-contact">Contact</div>
+        <AnchorLink href="#aboutMe" className="nav-subnav-aboutme">About Me</AnchorLink>
+        <AnchorLink href="#work" className="nav-subnav-work">Work</AnchorLink>
+        <AnchorLink href="#experience" className="nav-subnav-experience">Experience</AnchorLink>
+        <AnchorLink href="#education" className="nav-subnav-education">Education</AnchorLink>
+        <AnchorLink href="#skills" className="nav-subnav-skils">Skills</AnchorLink>
+        <AnchorLink href="#contact" className="nav-subnav-contact">Contact</AnchorLink>
       </div>
       <div className="nav-arrow_down">Arrow Down</div>
     </div>
