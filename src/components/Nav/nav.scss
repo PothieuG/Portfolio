@@ -31,7 +31,7 @@
   }
 
   &-subnav {
-    display: none;
+    // display: none;
     flex-direction: row;
     margin-top: 30vh;
 
@@ -47,12 +47,14 @@
     animation: arrow 3s ease-in-out infinite alternate both;
   }
 
-  @keyframes arrow {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(0.5);
-    }
+}
+
+// KeyFrames
+@keyframes arrow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
   }
 }
