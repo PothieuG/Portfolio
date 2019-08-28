@@ -9,9 +9,6 @@ import Education from 'src/components/Education';
 import Skills from 'src/components/Skills';
 import Contact from 'src/components/Contact';
 
-// React Reveal
-import Fade from 'react-reveal/Fade';
-
 // == Import : local
 import './app.scss';
 
@@ -20,24 +17,12 @@ const App = () => (
   <div id="app">
     <div className="app">
       <Nav />
-      <Fade>
-        <AboutMe />
-      </Fade>
-      <Fade>
-        <Work />
-      </Fade>
-      <Fade>
-        <Experience />
-      </Fade>
-      <Fade>
-        <Education />
-      </Fade>
-      <Fade>
-        <Skills />
-      </Fade>
-      <Fade>
-        <Contact />
-      </Fade>
+      <AboutMe />
+      <Work />
+      <Experience />
+      <Education />
+      <Skills />
+      <Contact />
     </div>
   </div>
 );

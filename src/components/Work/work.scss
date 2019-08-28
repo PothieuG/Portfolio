@@ -5,6 +5,9 @@
 
   &-title {
     font-size: 1.5em;
+  }
+
+  &-divider {
     border-bottom: 1px solid black;
     padding-bottom: 0.5em;
   }
@@ -16,8 +19,8 @@
     flex-wrap: wrap;
     
     &-card {
-      width: 45%;
-      margin: 2.5%;
+      width: 65%;
+      margin: 2.5% auto;
 
       &-image {
         width: 100%;
