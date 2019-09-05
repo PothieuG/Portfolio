@@ -13,9 +13,9 @@ import 'animate.css/animate.min.css';
 import App from 'src/components/App';
 
 // Fonts
-import 'src/materials/fonts/Light/tt-firs-light-webfont.woff';
-import 'src/materials/fonts/Hairline/tt-firs-hairline-webfont.woff';
-import 'src/materials/fonts/Bold/tt-firs-bold-webfont.woff';
+import 'src/assets/fonts/Light/tt-firs-light-webfont.woff';
+import 'src/assets/fonts/Hairline/tt-firs-hairline-webfont.woff';
+import 'src/assets/fonts/Bold/tt-firs-bold-webfont.woff';
 
 import store from 'src/store';
 

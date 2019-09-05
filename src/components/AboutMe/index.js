@@ -19,7 +19,7 @@ const AboutMe = () => (
         <p className="aboutMe-description-littleDescription">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
         <p className="aboutMe-description-mainDescription">
           I just finished &nbsp;
-          <a href="https://oclock.io/"><img src="../../../src/materials/images/svg/logo_oclock.svg" alt="Oclock-icone" className="aboutMe-description-mainDescription-oclock" /></a>
+          <a href="https://oclock.io/"><img src="../../../src/assets/images/svg/logo_oclock.svg" alt="Oclock-icone" className="aboutMe-description-mainDescription-oclock" /></a>
           's school, an amazing remote school. I learned there all I need to start my life as web developer.<br />
           Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
           <br />
