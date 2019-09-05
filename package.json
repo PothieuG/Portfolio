@@ -1,6 +1,6 @@
 {
   "name": "react-modele",
-  "homepage": "./src",
+  "homepage": ".",
   "devDependencies": {
     "@babel/core": "*",
     "@babel/plugin-proposal-class-properties": "*",
