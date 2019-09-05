@@ -1,15 +1,16 @@
 .aboutMe {
-  margin: 1em 0;
+  margin: 1em;
   min-height: 100vh;
   padding: 1em 0;
+  font-family: Helvetica, sans-serif;
 
   &-title {
-    font-size: 1.5em;
-  }
-
-  &-divider {
-    border-bottom: 1px solid black;
-    padding-bottom: 0.5em;
+    font-size: 2em;
+    background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:  bold;
+    font-family: 'Firs-Light', sans-serif;
   }
 
   &-description {
@@ -21,6 +22,10 @@
   
     &-mainDescription {
       padding: 0.5em 1.5em 1em;
+
+      &-oclock {
+        width: 59px;
+      }
     }
   }
 
@@ -29,6 +34,11 @@
 
     &-title {
       font-size: 1.25em;
+      background:  rgb(158,45,220);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:  bold;
+      font-family: 'Firs-Light', sans-serif;
     }
 
     &-ul {
@@ -42,6 +52,21 @@
           font-style: italic;
         }
       }
+    }
+  }
+
+  &-socials {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    font-size: 2em;
+    justify-content: center;
+
+    & * {
+      margin: 0.2em;
+      color: rgb(67, 113, 168);
+      -webkit-text-fill-color: transparent;
     }
   }
 }

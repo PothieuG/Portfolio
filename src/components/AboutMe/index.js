@@ -2,7 +2,10 @@
 import React from 'react';
 
 // Scroll Animation
-import ScrollAnimation from 'react-animate-on-scroll';
+
+import {
+  FaLinkedin, FaFacebookSquare, FaTwitter, FaInstagram, FaGithub,
+} from 'react-icons/fa';
 
 // == Import : local
 import './aboutMe.scss';
@@ -11,32 +14,36 @@ import './aboutMe.scss';
 const AboutMe = () => (
   <div id="aboutMe">
     <div className="aboutMe">
-      <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" offset="620">
-        <h2 className="aboutMe-title">About Me</h2>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" delay="250" offset="620">
-        <div className="aboutMe-divider" />
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" delay="300">
-        <div className="aboutMe-description">
-          <p className="aboutMe-description-littleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab, dignissimos reiciendis fuga porro</p>
-          <p className="aboutMe-description-mainDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo qui possimus aspernatur laudantium hic saepe quidem maxime nihil sit incidunt unde quam amet nam, quis, similique beatae. Eligendi, eveniet ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam cumque qui doloribus, quo placeat explicabo officiis officia aliquam magnam asperiores illum quae iure ipsum veniam, blanditiis, assumenda omnis repellendus.</p>
-        </div>
-      </ScrollAnimation>
+      <h2 className="aboutMe-title">Who is Gilles ?</h2>
+      <div className="aboutMe-description">
+        <p className="aboutMe-description-littleDescription">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
+        <p className="aboutMe-description-mainDescription">
+          I just finished &nbsp;
+          <a href="https://oclock.io/"><img src="../../../src/materials/images/svg/logo_oclock.svg" alt="Oclock-icone" className="aboutMe-description-mainDescription-oclock" /></a>
+          's school, an amazing remote school. I learned there all I need to start my life as web developer.<br />
+          Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
+          <br />
+          <br />
+          Oh, by the way... I'm nurse too.
+        </p>
+      </div>
       <div className="aboutMe-interests">
-        <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" delay="350">
-          <h3 className="aboutMe-interests-title">Interests & Likes</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" delay="400">
-          <ul className="aboutMe-interests-ul">
-            <div className="aboutMe-interests-ul-list"> - Sport: <span className="aboutMe-interests-ul-list-italic"> tennis, running, table tennis...</span></div>
-            <div className="aboutMe-interests-ul-list"> - Reading</div>
-            <div className="aboutMe-interests-ul-list"> - Cinema</div>
-            <div className="aboutMe-interests-ul-list"> - Video-Games</div>
-            <div className="aboutMe-interests-ul-list"> - Hanging out with friends</div>
-            <div className="aboutMe-interests-ul-list"> - Video-Games development</div>
-          </ul>
-        </ScrollAnimation>
+        <h3 className="aboutMe-interests-title">Interests & Likes</h3>
+        <ul className="aboutMe-interests-ul">
+          <div className="aboutMe-interests-ul-list"> - Sport: <span className="aboutMe-interests-ul-list-italic"> tennis, running, table tennis...</span></div>
+          <div className="aboutMe-interests-ul-list"> - Reading</div>
+          <div className="aboutMe-interests-ul-list"> - Cinema</div>
+          <div className="aboutMe-interests-ul-list"> - Video-Games</div>
+          <div className="aboutMe-interests-ul-list"> - Hanging out with friends</div>
+          <div className="aboutMe-interests-ul-list"> - Video-Games development</div>
+        </ul>
+      </div>
+      <div className="aboutMe-socials">
+        <a href="https://www.linkedin.com/in/gilles-pothieu-b43143180/"><FaLinkedin className="aboutMe-socials-linkedin" /></a>
+        <a href="https://www.facebook.com/gilles.pothieupro"><FaFacebookSquare className="aboutMe-socials-facebook" /></a>
+        <a href="https://twitter.com/PothieuG"><FaTwitter className="aboutMe-socials-twitter" /></a>
+        <a href="https://www.instagram.com/gillespothieu/"><FaInstagram className="aboutMe-socials-instagram" /></a>
+        <a href="https://github.com/PothieuG"><FaGithub className="aboutMe-socials-github" /></a>
       </div>
     </div>
   </div>
