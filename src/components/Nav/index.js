@@ -7,9 +7,6 @@ import './nav.scss';
 // AnchorLink Scroll
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-// React Icons
-import { IoMdArrowRoundDown } from 'react-icons/io';
-
 // == Composant
 const Nav = () => (
   <div id="nav">
@@ -28,7 +25,6 @@ const Nav = () => (
         <AnchorLink href="#skills" className="nav-subnav-skills">Skills</AnchorLink>
         <AnchorLink href="#contact" className="nav-subnav-contact">Contact</AnchorLink>
       </div>
-      <IoMdArrowRoundDown className="nav-arrow" />
     </div>
   </div>
 );

@@ -1,0 +1,13 @@
+.app-arrow {
+  position: absolute;
+  margin: 92vh 0 0 49vh;
+  font-size: 2em;
+  animation: arrow 2s ease-in-out infinite alternate both;
+  color: rgb(179, 175, 175);
+}
+
+[data-aos="transition-arrow"] {
+  &.aos-animate {
+    opacity: 0;
+  }
+}
