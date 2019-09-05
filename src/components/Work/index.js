@@ -12,13 +12,13 @@ const Work = () => (
       <div className="work-divider" />
       <div className="work-cards">
         <div className="work-cards-card">
-          <img src="src/materials/images/screen_oboard.jpg" alt="" className="work-cards-card-image" />
+          <img src="" alt="" className="work-cards-card-image" />
         </div>
         <div className="work-cards-card">
-          <img src="src/materials/images/screen_oboard.jpg" alt="" className="work-cards-card-image" />
+          <img src="" alt="" className="work-cards-card-image" />
         </div>
         <div className="work-cards-card">
-          <img src="src/materials/images/screen_oboard.jpg" alt="" className="work-cards-card-image" />
+          <img src="" alt="" className="work-cards-card-image" />
         </div>
       </div>
     </div>
