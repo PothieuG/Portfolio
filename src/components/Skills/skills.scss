@@ -1,5 +1,94 @@
 .skills {
   min-height: 100vh;
-  background-clip: content-box;
-  background-color: brown;
+  margin: 1em;
+  padding: 1em 0;
+
+  &-title {
+    font-size: 2em;
+    background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:  bold;
+    font-family: 'Firs-Light', sans-serif;
+  }
+
+  &-front {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.75em;
+      color: rgb(158,45,220);
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid blue;
+    }
+  }
+
+  &-back {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.75em;
+      color: rgb(158,45,220);
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid blue;
+    }
+  }
+
+  &-cms {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.75em;
+      color: rgb(158,45,220);
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid blue;
+    }
+  }
+
+  &-frameworks {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.75em;
+      color: rgb(158,45,220);
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid blue;
+    }
+  }
+
+  &-management {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.75em;
+      color: rgb(158,45,220);
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid blue;
+    }
+  }
 }

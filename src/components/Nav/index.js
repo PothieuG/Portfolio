@@ -21,8 +21,8 @@ const Nav = () => (
       </div>
       <div className="nav-subnav">
         <AnchorLink href="#aboutMe" className="nav-subnav-aboutme">Who is Gilles ?</AnchorLink>
-        <AnchorLink href="#work" className="nav-subnav-work">Work</AnchorLink>
         <AnchorLink href="#skills" className="nav-subnav-skills">Skills</AnchorLink>
+        <AnchorLink href="#work" className="nav-subnav-work">Work</AnchorLink>
         <AnchorLink href="#contact" className="nav-subnav-contact">Contact</AnchorLink>
       </div>
     </div>
