@@ -1,6 +1,6 @@
 {
   "name": "react-modele",
-  "homepage": "https://gilles-pothieu.netlify.com/",
+  "homepage": "./",
   "devDependencies": {
     "@babel/core": "*",
     "@babel/plugin-proposal-class-properties": "*",
