@@ -1,31 +1,14 @@
 .work {
-  margin: 1em 0;
   min-height: 100vh;
+  margin: 1em;
   padding: 1em 0;
 
   &-title {
-    font-size: 1.5em;
-  }
-
-  &-divider {
-    border-bottom: 1px solid black;
-    padding-bottom: 0.5em;
-  }
-
-  &-cards {
-
-    margin: 1.5em 5%;
-    display: flex;
-    flex-wrap: wrap;
-    
-    &-card {
-      width: 65%;
-      margin: 2.5% auto;
-
-      &-image {
-        width: 100%;
-        object-fit: contain;
-      }
-    }
+    font-size: 2em;
+    background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:  bold;
+    font-family: 'Firs-Light', sans-serif;
   }
 }

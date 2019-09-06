@@ -8,7 +8,7 @@ import './skills.scss';
 const Skills = () => (
   <div id="skills">
     <div className="skills">
-      <h2 className="skills-title" data-aos="flip-right">My Skills</h2>
+      <h2 className="skills-title" data-aos="fade-right">My Skills</h2>
       <div className="skills-front">
         <h3 className="skills-front-header" data-aos="fade">Front-End</h3>
         <ul className="skills-front-ul">
