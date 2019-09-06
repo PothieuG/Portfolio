@@ -22,8 +22,7 @@ const AboutMe = () => (
         <p className="aboutMe-description-mainDescription" data-aos="fade-left">
           I just finished &nbsp;
           <a href="https://oclock.io/"><img src={OclockSVG} alt="logo oclock" className="aboutMe-description-mainDescription-oclock" /></a>
-          's school, an amazing remote school. I learned there all I need to start my
-           life as web developer.<br />
+          's school, an amazing remote school. I learned there all I need to start my life as web developer.<br />
           Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
           <br />
           <br />
