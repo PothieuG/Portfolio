@@ -29,7 +29,8 @@ class App extends React.Component {
     });
   }
 
-  componentWillReceiveProps() {
+  // eslint-disable-next-line camelcase
+  UNSAFE_componentWillReceiveProps() {
     AOS.refresh();
   }
 

@@ -1,9 +1,13 @@
 // == Import : npm
 import React from 'react';
 
+// Import logos:
 import {
   FaLinkedin, FaFacebookSquare, FaTwitter, FaInstagram, FaGithub,
 } from 'react-icons/fa';
+
+// Import Images
+import OclockSVG from 'src/assets/images/svg/logo_oclock.svg';
 
 // == Import : local
 import './aboutMe.scss';
@@ -17,8 +21,9 @@ const AboutMe = () => (
         <p className="aboutMe-description-littleDescription" data-aos="fade-left">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
         <p className="aboutMe-description-mainDescription" data-aos="fade-left">
           I just finished &nbsp;
-          <a href="https://oclock.io/"><img src={require(`../../../src/assets/images/svg/logo_oclock.svg`)} alt="logo oclock" className="aboutMe-description-mainDescription-oclock" /></a>
-          's school, an amazing remote school. I learned there all I need to start my life as web developer.<br />
+          <a href="https://oclock.io/"><img src={OclockSVG} alt="logo oclock" className="aboutMe-description-mainDescription-oclock" /></a>
+          's school, an amazing remote school. I learned there all I need to start my
+           life as web developer.<br />
           Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
           <br />
           <br />
