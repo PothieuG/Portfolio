@@ -18,8 +18,8 @@ const AboutMe = () => (
     <div className="aboutMe">
       <h2 className="aboutMe-title" data-aos="fade-right" id="trigger-arrow">Who is Gilles ?</h2>
       <div className="aboutMe-description">
-        <p className="aboutMe-description-littleDescription" data-aos="fade-left">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
-        <p className="aboutMe-description-mainDescription" data-aos="fade-left">
+        <p className="aboutMe-description-littleDescription" data-aos="fade-up">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
+        <p className="aboutMe-description-mainDescription" data-aos="fade-down">
           I just finished &nbsp;
           <a href="https://oclock.io/"><img src={OclockSVG} alt="logo oclock" className="aboutMe-description-mainDescription-oclock" /></a>
           's school, an amazing remote school. I learned there all I need to start my life as web developer.<br />

@@ -13,37 +13,120 @@
   }
 
   &-cards {
-
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin: 1em 1em 0 0;
 
-    &-header {
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-bottom: 0.1em;
-    }
+    &-card {
 
-    &-boxImage {
+      margin-top: 2em;
+      width: 100%;
+      height: 180px;
+      top:0; right: 0; left: 0; bottom: 0;
+      background: url("../../assets/images/jpg/chatons-qui-dorment.jpg");
+      background-color: black;
+      background-size: cover;
+      cursor: pointer;  
+      -webkit-box-shadow: 0 0 5px #000;
+            box-shadow: 0 0 5px #000;
 
-      border: 3px solid black;
-      
-      img {
+      &-overlay {
         width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: rgba(77, 77, 77, .9);
+        opacity: 0;
+        color:#FEF5DF;
+        transition: all 0.5s;
+        font-family: 'Playfair Display', serif;
+
+        &-titleContent {
+          margin: 1em 0 1.25em 1em;
+          font-size: 1.5em;
+          line-height: 20px;
+          transform: translateY(40px);
+          transition: all 0.7s;
+        }
+
+        hr {
+          display: block;
+          width: 0;
+          border: none;
+          border-bottom: solid 2px #FEF5DF;  
+          bottom: 0; left:20px;
+          transition: all .5s;
+          margin: -1em 0 0 1.5em;
+        }
+
+        &-infos {
+
+          opacity: 0;
+          transform: translateY(40px);
+          transition: all 0.7s;
+          margin: 1em 1.5em 0;
+
+          &-text {
+            height: 2em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 1.1em;
+            font-weight: bold;
+            white-space: nowrap;
+          }
+        }
+
+        &-visit {
+          margin: 0.5em 1em;
+          font-size: 20px;
+          font-weight: bold;  
+          opacity: 0;
+          transform: translateY(40px);
+          transition: all 0.7s;
+        }
+
+        &-footer {
+          display: flex;
+          justify-content: space-between;
+          margin: 1em 1em;
+          font-size: 12px;
+          opacity: 0;
+          letter-spacing: 1px;
+          font-family: 'Lato', sans-serif;
+          transform: translateY(40px);
+          transition: all 0.7s;
+
+          &-github {
+            margin: -3em 0;
+          }
+        }
       }
-    }
 
-    &-desription {
-      margin-top: 0.5em;
-      font-size: 1.1em;
-      padding-left: 1em;
-      border-left: 1px solid black;
-    }
+      &:hover .work-cards-card-overlay {
 
-    &-technos {
-      margin-left: 1em;
-      padding-left: 1em;
-      border-left: 1px solid black;
+        opacity: 1;
+
+        & .work-cards-card-overlay-titleContent {
+          transform: translateY(0px);
+        }
+
+        & hr {
+          width: 75px;
+          transition-delay: 0.4s;
+        }
+
+        & .work-cards-card-overlay-infos, .work-cards-card-overlay-visit {
+          transform: translateY(0px);
+          transition-delay: 0.3s;
+          opacity: 1;
+        }
+
+        & .work-cards-card-overlay-footer {
+          transform: translateY(0px);
+          transition-delay: 0.6s;
+          opacity: 1;
+        }
+      }
     }
   }
 }
