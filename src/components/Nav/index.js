@@ -14,7 +14,7 @@ const Nav = () => (
       <h1 className="nav-intro">
         Hi there, my name is
         <br />
-        <span className="nav-intro-name">Gilles Pothieu !</span>
+        <span className="nav-intro-name">Gilles Pothieu</span>
       </h1>
       <div className="nav-function">
         Web Developer

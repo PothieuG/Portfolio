@@ -12,10 +12,9 @@ import Tippy from '@tippy.js/react';
 
 // == Composant
 const Contact = () => {
-  
-  const popContent = <PopContent />
+  const popContent = <PopContent />;
 
-  return(
+  return (
     <div id="contact">
       <div className="contact">
         <div className="contact-header">
@@ -31,20 +30,16 @@ const Contact = () => {
         </div>
         <div className="contact-cvBox" data-aos="fade">
           <div className="contact-cvBox-text">
-            Ho, and take a look at my CV !
+            Ho, and take a look at &nbsp;
+            <Tippy content={popContent} arrow animation="scale" className="contact-cvBox-text-background" placement="bottom" interactive="true" arrowType="round">
+              <span className="contact-cvBox-text-span">my CV !</span>
+            </Tippy>
           </div>
-          <div className="contact-cvBox-cv">
-            <a href="https://drive.google.com/open?id=1HMcEqJybEKcWfP5nY-U-44sWU0_UdHxE" download>Yo</a>
-          </div>
-
-          <Tippy content={popContent} arrow={true} className="test">
-            <button>My button</button>
-          </Tippy>
         </div>
       </div>
     </div>
   );
-}
+};
 
 // == Export
 export default Contact;

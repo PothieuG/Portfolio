@@ -2,16 +2,16 @@
 
   &-arrow_down-white {
     position: absolute;
-    margin: 92vh 0 0 49vh;
-    font-size: 2em;
+    margin: 90vh 0 0 47vh;
+    width: 35px;
     animation: arrow 2s ease-in-out infinite alternate both;
     color: rgb(179, 175, 175);
   }
 
   &-arrow_up-color {
     position: fixed;
-    margin: 92vh 0 0 49vh;
-    font-size: 2em;
+    margin: 90vh 0 0 47vh;
+    width: 35px;
     animation: arrow 2s ease-in-out infinite alternate both;
     color: red;
     opacity: 0;

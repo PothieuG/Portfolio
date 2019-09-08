@@ -52,9 +52,29 @@
     margin-top: 1em;
 
     &-text {
-      font-size: 1.5em;
-      font-weight: bolder;
+      font-size: 1.4em;
       color: gray;
+
+      &-background {
+        background: rgb(158,45,220);
+        background: linear-gradient(51deg, rgba(158,45,220,0.1) 0%, rgba(13,106,217,0.1) 100%);
+        color: rgb(87, 87, 87);
+        border-radius: 10px;
+      }
+
+      &-span {
+        border: 1px solid rgb(158,45,220);
+        margin-left: 0.1em;
+        padding: 0.25em;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(126, 145, 255, 0);
+        display: inline-block;
+        height: 35px;
+        cursor: pointer;
+        font-family: Helvetica, sans-serif;
+      }
     }
   }
 }
