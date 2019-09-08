@@ -28,7 +28,7 @@ const Contact = () => (
           Ho, and take a look at my CV !
         </div>
         <div className="contact-cvBox-cv">
-          <a href="src/assets/pdf/cv.pdf" download>Yo</a>
+          <a href="https://drive.google.com/open?id=1HMcEqJybEKcWfP5nY-U-44sWU0_UdHxE" download>Yo</a>
         </div>
       </div>
     </div>
