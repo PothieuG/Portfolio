@@ -14,14 +14,15 @@ import Work from 'src/components/Work';
 import Skills from 'src/components/Skills';
 import Contact from 'src/components/Contact';
 
+// Import Image
+import arrowColor from 'src/assets/images/svg/arrow_color.svg';
+import arrowWhite from 'src/assets/images/svg/arrow_white.svg';
+
 // == Import : local
 import './app.scss';
 
 // AnchorLink Scroll
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-
-// React Icons
-import { IoMdArrowRoundDown } from 'react-icons/io';
 
 // == Composant
 class App extends React.Component {
@@ -41,8 +42,8 @@ class App extends React.Component {
     return (
       <div id="app">
         <div className="app">
-          <IoMdArrowRoundDown className="app-arrow" data-aos="transition-arrow" data-aos-anchor="#trigger-arrow" />
-          <AnchorLink href="#app"><IoMdArrowRoundDown className="app-arrowback" data-aos="transition-arrowback" data-aos-anchor="#trigger-arrowback" /></AnchorLink>
+          <img src={arrowWhite} alt="arrow_down-white" className="app-arrow_down-white" data-aos="transition-arrow_down-white" data-aos-anchor="#trigger-arrow_down-white" />
+          <AnchorLink href="#app"> <img src={arrowColor} alt="arrow_up-color" className="app-arrow_up-color" data-aos="transition-arrow_up-color" data-aos-anchor="#trigger-arrow_up-color" /></AnchorLink>
           <Nav />
           <AboutMe />
           <Skills />

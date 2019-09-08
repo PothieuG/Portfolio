@@ -1,15 +1,55 @@
 .contact {
   min-height: 100vh;
-  margin: 1em auto;
-  padding: 1em 0;
+  padding: 3em 1.5em 0 1.5em;
+  color: rgb(83, 83, 83);
+  line-height: 25px;
 
   &-header {
-    text-align: center;
-    width: 100%;
-    border: 1px solid blue;
 
     &-title {
+      background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:  bold;
+      font-family: 'Firs-Light', sans-serif;
       font-size: 2em;
+      padding: 0.1em 0;
+    }
+  }
+
+  &-content {
+    
+    margin-top: 1em;
+    
+    &-number {
+
+      &-text {
+        font-size: 2em;
+        font-weight: bolder;
+        color: gray;
+      }
+    }
+
+    &-mail {
+
+      margin-top: 1em;
+
+      &-text {
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: gray;
+      }
+    }
+  }
+
+  &-cvBox {
+
+    margin-top: 1em;
+
+    &-text {
+      font-size: 1.5em;
+      font-weight: bolder;
+      color: gray;
     }
   }
 }

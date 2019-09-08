@@ -17,7 +17,7 @@ const AboutMe = () => (
   <div id="aboutMe">
     <div className="aboutMe">
       <div className="aboutMe-top">
-        <h2 className="aboutMe-top-title" data-aos="fade-right" id="trigger-arrow">Who is Gilles ?</h2>
+        <h2 className="aboutMe-top-title" data-aos="fade-right" id="trigger-arrow_down-white">Who is Gilles ?</h2>
         <div className="aboutMe-top-description">
           <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
           <p className="aboutMe-top-description-mainDescription" data-aos="fade-down">
@@ -41,7 +41,7 @@ const AboutMe = () => (
           </ul>
         </div>
       </div>
-      <div className="aboutMe-socials" id="trigger-arrowback">
+      <div className="aboutMe-socials" id="trigger-arrow_up-color">
         <a href="https://www.linkedin.com/in/gilles-pothieu-b43143180/"><FaLinkedin className="aboutMe-socials-linkedin" data-aos="zoom-in" data-aos-offset="1250" /></a>
         <a href="https://www.facebook.com/gilles.pothieupro"><FaFacebookSquare className="aboutMe-socials-facebook" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="150" /></a>
         <a href="https://twitter.com/PothieuG"><FaTwitter className="aboutMe-socials-twitter" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="300" /></a>

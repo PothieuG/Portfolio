@@ -1,6 +1,5 @@
 .aboutMe {
-  min-height: 95vh;
-  padding: 3em 1.5em 0 1.5em;
+  min-height: 100vh;
   font-family: Helvetica, sans-serif;
   color: rgb(83, 83, 83);
   display: flex;
@@ -8,6 +7,8 @@
   justify-content: space-between;
 
   &-top {
+
+    padding: 3em 1.5em 0 1.5em;
 
     &-title {
       font-size: 2em;
@@ -71,7 +72,6 @@
     justify-content: center;
     background: rgb(158,45,220);
     background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
-    margin: -1em;
     height: 100px;
     align-items: center;
 

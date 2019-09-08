@@ -1,6 +1,6 @@
 .app {
 
-  &-arrow {
+  &-arrow_down-white {
     position: absolute;
     margin: 92vh 0 0 49vh;
     font-size: 2em;
@@ -8,7 +8,7 @@
     color: rgb(179, 175, 175);
   }
 
-  &-arrowback {
+  &-arrow_up-color {
     position: fixed;
     margin: 92vh 0 0 49vh;
     font-size: 2em;
@@ -18,15 +18,14 @@
   }
 }
 
-[data-aos="transition-arrow"] {
+[data-aos="transition-arrow_down-white"] {
   &.aos-animate {
     opacity: 0;
   }
 }
 
-[data-aos="transition-arrowback"] {
+[data-aos="transition-arrow_up-color"] {
   &.aos-animate {
     opacity: 1;
   }
 }
-
