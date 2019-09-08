@@ -4,8 +4,6 @@ import React from 'react';
 // == Import : local
 import './contact.scss';
 
-import CV from '../../assets/pdf/Cv_Gilles_POTHIEU.pdf';
-
 const { Link } = require('react-router-dom');
 
 
@@ -30,9 +28,7 @@ const Contact = () => (
           Ho, and take a look at my CV !
         </div>
         <div className="contact-cvBox-cv">
-          <Link to={CV} target="_blank" download>
-            Link
-          </Link>
+          <a href="src/assets/pdf/cv.pdf" download>Yo</a>
         </div>
       </div>
     </div>
