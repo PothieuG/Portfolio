@@ -1,6 +1,6 @@
 # Gilles Pothieu's Portfolio
 
-## [Link]() to the site
+[Link]() to the site
 
 Full React/CSS project. No Framework.  
 
