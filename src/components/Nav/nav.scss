@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  color: rgba(255, 255, 255, 0.822);
-  padding: 1.5em;
+  color: rgb(255, 255, 255);
+  padding: 2em 0 0 1.5em;
 
   &-intro {
     font-size: 3.8em;
@@ -22,13 +22,13 @@
   }
 
   &-function {
-    font-size: 3em;
+    font-size: 2.8em;
     margin-top: 0.5em;
   }
 
   &-subnav {
-    margin-top: 1em;
-    border-left: 1px solid white;
+    margin-top: 2em;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding-left: 0.5em;
     font-size: 2em;
 

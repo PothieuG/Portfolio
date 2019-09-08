@@ -34,7 +34,7 @@ const Skills = () => (
           <li className="skills-cms-ul-list">Wordpress</li>
         </ul>
       </div>
-      <div className="skills-frameworks" data-aos="fade">
+      <div className="skills-frameworks" data-aos="fade" data-aos-offset="50">
         <h3 className="skills-frameworks-header">Frameworks & Tools</h3>
         <ul className="skills-frameworks-ul">
           <li className="skills-frameworks-ul-list">Ajax</li>
@@ -48,7 +48,7 @@ const Skills = () => (
           <li className="skills-frameworks-ul-list">LAMP environment</li>
         </ul>
       </div>
-      <div className="skills-management" data-aos="fade">
+      <div className="skills-management" data-aos="fade" data-aos-offset="50">
         <h3 className="skills-management-header">Management</h3>
         <ul className="skills-management-ul">
           <li className="skills-management-ul-list">Agiles Method</li>

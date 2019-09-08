@@ -1,7 +1,11 @@
 .skills {
-  min-height: 100vh;
-  margin: 1em;
-  padding: 1em 0;
+  min-height: 95vh;
+  margin: 2em 0;
+  padding: 3em 1.5em 0 1.5em;
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 83, 83);
+  line-height: 25px;
+  width: 95%;
 
   &-title {
     font-size: 2em;
@@ -10,21 +14,23 @@
     -webkit-text-fill-color: transparent;
     font-weight:  bold;
     font-family: 'Firs-Light', sans-serif;
+    height: 35px;
+    padding: 0.1em 0;
   }
 
   &-front {
 
     &-header {
       margin-top: 1em;
-      font-size: 1.75em;
-      color: rgb(158,45,220);
+      font-size: 1.35em;
+      font-weight: bold;
     }
 
     &-ul {
       margin: 0.5em 0;
       padding-left: 0.5em;
       font-size: 1.2em;
-      border-left: 1px solid blue;
+      border-left: 1px solid rgb(83, 83, 83);
     }
   }
 
@@ -32,15 +38,15 @@
 
     &-header {
       margin-top: 1em;
-      font-size: 1.75em;
-      color: rgb(158,45,220);
+      font-size: 1.35em;
+      font-weight: bold;
     }
 
     &-ul {
       margin: 0.5em 0;
       padding-left: 0.5em;
       font-size: 1.2em;
-      border-left: 1px solid blue;
+      border-left: 1px solid rgb(83, 83, 83);
     }
   }
 
@@ -48,15 +54,15 @@
 
     &-header {
       margin-top: 1em;
-      font-size: 1.75em;
-      color: rgb(158,45,220);
+      font-size: 1.35em;
+      font-weight: bold;
     }
 
     &-ul {
       margin: 0.5em 0;
       padding-left: 0.5em;
       font-size: 1.2em;
-      border-left: 1px solid blue;
+      border-left: 1px solid rgb(83, 83, 83);
     }
   }
 
@@ -64,15 +70,15 @@
 
     &-header {
       margin-top: 1em;
-      font-size: 1.75em;
-      color: rgb(158,45,220);
+      font-size: 1.35em;
+      font-weight: bold;
     }
 
     &-ul {
       margin: 0.5em 0;
       padding-left: 0.5em;
       font-size: 1.2em;
-      border-left: 1px solid blue;
+      border-left: 1px solid rgb(83, 83, 83);
     }
   }
 
@@ -80,15 +86,15 @@
 
     &-header {
       margin-top: 1em;
-      font-size: 1.75em;
-      color: rgb(158,45,220);
+      font-size: 1.35em;
+      font-weight: bold;
     }
 
     &-ul {
       margin: 0.5em 0;
       padding-left: 0.5em;
       font-size: 1.2em;
-      border-left: 1px solid blue;
+      border-left: 1px solid rgb(83, 83, 83);
     }
   }
 }
