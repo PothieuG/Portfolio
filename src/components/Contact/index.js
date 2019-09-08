@@ -4,6 +4,8 @@ import React from 'react';
 // == Import : local
 import './contact.scss';
 
+const { Link } = require('react-router-dom');
+
 // == Composant
 const Contact = () => (
   <div id="contact">
@@ -24,7 +26,11 @@ const Contact = () => (
         <div className="contact-cvBox text">
           Ho, and take a look at my CV !
         </div>
-        <div className="contact-cvBox-cv">CV</div>
+        <div className="contact-cvBox-cv">
+          <Link to="src/assets/pdf/Cv_Gilles_POTHIEU.pdf" target="_blank" download>
+            Link
+          </Link>
+        </div>
       </div>
     </div>
   </div>
