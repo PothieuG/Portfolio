@@ -83,6 +83,10 @@
           opacity: 0;
           transform: translateY(40px);
           transition: all 0.7s;
+
+          &-text {
+            display: inline-block;
+          }
         }
 
         &-footer {

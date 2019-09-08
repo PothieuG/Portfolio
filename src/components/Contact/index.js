@@ -4,9 +4,6 @@ import React from 'react';
 // == Import : local
 import './contact.scss';
 
-const { Link } = require('react-router-dom');
-
-
 // == Composant
 const Contact = () => (
   <div id="contact">

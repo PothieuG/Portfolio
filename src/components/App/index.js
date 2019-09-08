@@ -17,6 +17,9 @@ import Contact from 'src/components/Contact';
 // == Import : local
 import './app.scss';
 
+// AnchorLink Scroll
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 // React Icons
 import { IoMdArrowRoundDown } from 'react-icons/io';
 
@@ -39,6 +42,7 @@ class App extends React.Component {
       <div id="app">
         <div className="app">
           <IoMdArrowRoundDown className="app-arrow" data-aos="transition-arrow" data-aos-anchor="#trigger-arrow" />
+          <AnchorLink href="#app"><IoMdArrowRoundDown className="app-arrowback" data-aos="transition-arrowback" data-aos-anchor="#trigger-arrowback" /></AnchorLink>
           <Nav />
           <AboutMe />
           <Skills />

@@ -40,7 +40,7 @@ const AboutMe = () => (
           <div className="aboutMe-interests-ul-list"> - Video-Games development</div>
         </ul>
       </div>
-      <div className="aboutMe-socials">
+      <div className="aboutMe-socials" id="trigger-arrowback">
         <a href="https://www.linkedin.com/in/gilles-pothieu-b43143180/"><FaLinkedin className="aboutMe-socials-linkedin" data-aos="zoom-in" data-aos-offset="1250" /></a>
         <a href="https://www.facebook.com/gilles.pothieupro"><FaFacebookSquare className="aboutMe-socials-facebook" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="150" /></a>
         <a href="https://twitter.com/PothieuG"><FaTwitter className="aboutMe-socials-twitter" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="300" /></a>
