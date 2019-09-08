@@ -134,3 +134,12 @@
     }
   }
 }
+
+.test {
+  background-color: red;
+  &[x-placement^='top'] {
+    .tippy-arrow {
+      border-top-color: purple;
+    }
+  }
+}

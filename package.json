@@ -52,6 +52,7 @@
     "save-deps": "node updateDeps.js"
   },
   "dependencies": {
+    "@tippy.js/react": "^2.2.3",
     "animate.css": "^3.7.2",
     "aos": "^2.3.4",
     "axios": "^0.19.0",
