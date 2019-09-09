@@ -1,4 +1,5 @@
 .aboutMe {
+
   min-height: 100vh;
   font-family: Helvetica, sans-serif;
   color: rgb(83, 83, 83);
@@ -79,6 +80,24 @@
       margin: 0.2em;
       color: white;
       -webkit-text-fill-color: transparent;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    
+    font-size: 1.5em;
+
+    &-top {
+
+      padding: 10% 15%;
+
+      &-description {
+        line-height: initial;
+      }
+    }
+
+    &-socials {
+      padding: 0;
     }
   }
 }

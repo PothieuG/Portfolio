@@ -211,4 +211,15 @@
       }
     }
   }
+
+  @media screen and (min-width: 767px) {
+    
+    font-size: 1.5em;
+    padding: 10% 15%;
+    line-height: initial;
+
+    &-title {
+      height: 60px;
+    }
+  }
 }
