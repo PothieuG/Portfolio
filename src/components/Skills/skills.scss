@@ -30,6 +30,37 @@
       padding-left: 0.5em;
       font-size: 1.2em;
       border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+
+          &-tab {
+            display: flex;
+
+          img {
+            height: 15px;
+            width: 15px;
+            margin-top:0.15em;
+          }
+          }
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -46,6 +77,27 @@
       padding-left: 0.5em;
       font-size: 1.2em;
       border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -62,6 +114,27 @@
       padding-left: 0.5em;
       font-size: 1.2em;
       border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -78,6 +151,27 @@
       padding-left: 0.5em;
       font-size: 1.2em;
       border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -94,6 +188,27 @@
       padding-left: 0.5em;
       font-size: 1.2em;
       border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
     }
   }
 }

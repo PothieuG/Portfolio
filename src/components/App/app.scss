@@ -2,7 +2,9 @@
 
   &-arrow_down-white {
     position: absolute;
-    margin: 90vh 0 0 47vh;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
     width: 35px;
     animation: arrow 2s ease-in-out infinite alternate both;
     color: rgb(179, 175, 175);
@@ -10,7 +12,9 @@
 
   &-arrow_up-color {
     position: fixed;
-    margin: 90vh 0 0 47vh;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
     width: 35px;
     animation: arrow 2s ease-in-out infinite alternate both;
     color: red;

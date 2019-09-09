@@ -16,7 +16,7 @@ const PopContent = () => (
       <a href="https://drive.google.com/open?id=1HMcEqJybEKcWfP5nY-U-44sWU0_UdHxE" download>
         <img src={FrenchFlag} alt="french_flag" className="popContent-flag" />
       </a>
-        <img src={UKFlag} alt="french_flag" className="popContent-flag" />
+      <img src={UKFlag} alt="french_flag" className="popContent-flag" />
     </div>
   </div>
 );
