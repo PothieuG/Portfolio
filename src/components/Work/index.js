@@ -39,7 +39,7 @@ const Work = () => (
               </div>
               <div className="work-wrapper-cards-card-overlay-footer">
                 <div className="work-wrapper-cards-card-overlay-footer-date">Septembre 2019</div>
-                <a href="#" className="work-wrapper-cards-card-overlay-footer-github">
+                <a href="https://github.com/PothieuG/Portfolio" className="work-wrapper-cards-card-overlay-footer-github">
                   <FaGithub className="work-wrapper-cards-card-overlay-footer-github-icon " width="100%" />
                 </a>
               </div>
