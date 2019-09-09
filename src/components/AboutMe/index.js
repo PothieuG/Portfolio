@@ -42,11 +42,11 @@ const AboutMe = () => (
         </div>
       </div>
       <div className="aboutMe-socials" id="trigger-arrow_up-color">
-        <a href="https://www.linkedin.com/in/gilles-pothieu-b43143180/"><FaLinkedin className="aboutMe-socials-linkedin" data-aos="zoom-in" data-aos-offset="1250" /></a>
-        <a href="https://www.facebook.com/gilles.pothieupro"><FaFacebookSquare className="aboutMe-socials-facebook" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="150" /></a>
-        <a href="https://twitter.com/PothieuG"><FaTwitter className="aboutMe-socials-twitter" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="300" /></a>
-        <a href="https://www.instagram.com/gillespothieu/"><FaInstagram className="aboutMe-socials-instagram" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="450" /></a>
-        <a href="https://github.com/PothieuG"><FaGithub className="aboutMe-socials-github" data-aos="zoom-in" data-aos-offset="1250" data-aos-delay="600" /></a>
+        <a href="https://www.linkedin.com/in/gilles-pothieu-b43143180/"><FaLinkedin className="aboutMe-socials-linkedin" data-aos="zoom-in" data-aos-offset="1000" /></a>
+        <a href="https://www.facebook.com/gilles.pothieupro"><FaFacebookSquare className="aboutMe-socials-facebook" data-aos="zoom-in" data-aos-offset="1000" data-aos-delay="150" /></a>
+        <a href="https://twitter.com/PothieuG"><FaTwitter className="aboutMe-socials-twitter" data-aos="zoom-in" data-aos-offset="1000" data-aos-delay="300" /></a>
+        <a href="https://www.instagram.com/gillespothieu/"><FaInstagram className="aboutMe-socials-instagram" data-aos="zoom-in" data-aos-offset="1000" data-aos-delay="450" /></a>
+        <a href="https://github.com/PothieuG"><FaGithub className="aboutMe-socials-github" data-aos="zoom-in" data-aos-offset="1000" data-aos-delay="600" /></a>
       </div>
     </div>
   </div>

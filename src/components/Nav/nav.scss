@@ -8,41 +8,54 @@
   color: rgb(255, 255, 255);
   padding: 2em 0 0 1.5em;
 
-  &-intro {
-    font-size: 3.8em;
-    font-family: 'Firs-Hairline', sans-serif;
+  &-wrapper {
 
-    &-name {
-      font-weight: 900;
-      color: rgba(255, 255, 255, 0.938);
-      margin-top: 0.15em;
-      display: inline-block;
-      font-family: 'Firs-Bold', sans-serif;
+    &-intro {
+      font-size: 3.8em;
+      font-family: 'Firs-Hairline', sans-serif;
+  
+      &-name {
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.938);
+        margin-top: 0.15em;
+        display: inline-block;
+        font-family: 'Firs-Bold', sans-serif;
+      }
     }
+  
+    &-function {
+      font-size: 2.8em;
+      margin-top: 0.5em;
+    }
+  
+    &-subnav {
+      margin-top: 2em;
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      padding-left: 0.5em;
+      font-size: 2em;
+  
+      &-aboutme, &-work, &-experience, &-education, &-skills, &-contact {
+        cursor: pointer;
+        display: block;
+        margin: 0.15em 0;
+      }
   }
 
-  &-function {
-    font-size: 2.8em;
-    margin-top: 0.5em;
-  }
-
-  &-subnav {
-    margin-top: 2em;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    padding-left: 0.5em;
-    font-size: 2em;
-
-    &-aboutme, &-work, &-experience, &-education, &-skills, &-contact {
-      cursor: pointer;
-      display: block;
-      margin: 0.15em 0;
-    }
   }
 
   @media screen and (min-width: 767px) {
     
-    padding: 10% 15%;
+    padding: 7.5% 15%;
     font-size: 1.5em;
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    &-wrapper {
+
+      width: 1000px;
+      margin: auto;
+    }
   }
 }
 

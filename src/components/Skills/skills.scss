@@ -222,4 +222,11 @@
       height: 60px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    
+      padding: 2em 0 0 1.5em;
+      width: 1000px;
+      margin: auto;
+  }
 }
