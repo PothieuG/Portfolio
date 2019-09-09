@@ -43,11 +43,11 @@
           &-tab {
             display: flex;
 
-          img {
-            height: 15px;
-            width: 15px;
-            margin-top:0.15em;
-          }
+            img {
+              height: 15px;
+              width: 15px;
+              margin-top:0.15em;
+            }
           }
         }
 
@@ -220,6 +220,27 @@
 
     &-title {
       height: 60px;
+    }
+
+    &-front {
+
+      &-ul {
+
+        &-list {
+
+          align-items: center;
+
+          &-frameworks {
+            
+            &-tab {
+
+              img {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
