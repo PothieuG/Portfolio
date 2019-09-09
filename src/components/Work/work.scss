@@ -25,7 +25,6 @@
         width: 93%;
         height: 180px;
         top:0; right: 0; left: 0; bottom: 0;
-        background: url("../../assets/images/jpg/portfolio.jpg");
         background-color: black;
         background-size: cover;
         cursor: pointer;
@@ -219,6 +218,13 @@
 
       width: 1000px;
       margin: auto;
+
+      &-cards {
+
+        &-card {
+          width: 309px;
+        }
+      }
     }   
   }
 }
