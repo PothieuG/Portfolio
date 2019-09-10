@@ -46,7 +46,7 @@ const Skills = () => (
           </li>
           <li className="skills-front-ul-list">
           Frameworks:
-            <span className="skills-front-ul-list-frameworks">Bootsrap, ANTD, Semantic UI, Materialize...</span>
+            <span className="skills-front-ul-list-frameworks">Bootstrap, ANTD, Semantic UI, Materialize...</span>
             <div className="skills-front-ul-list-frameworks-tab">
               <img src={fullTab} alt="full_tab" />
               <img src={fullTab} alt="full_tab" />
