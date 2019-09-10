@@ -42,8 +42,8 @@ class App extends React.Component {
     return (
       <div id="app">
         <div className="app">
-          <img src={arrowWhite} alt="arrow_down-white" className="app-arrow_down-white" data-aos="transition-arrow_down-white" data-aos-anchor="#trigger-arrow_down-white" />
-          <AnchorLink href="#app"> <img src={arrowColor} alt="arrow_up-color" className="app-arrow_up-color" data-aos="transition-arrow_up-color" data-aos-anchor="#trigger-arrow_up-color" /></AnchorLink>
+          <AnchorLink href="#aboutMe"><img src={arrowWhite} alt="arrow_down-white" className="app-arrow_down-white" data-aos="transition-arrow_down-white" data-aos-anchor="#trigger-arrow_down-white" /></AnchorLink>
+          <AnchorLink href="#app"><img src={arrowColor} alt="arrow_up-color" className="app-arrow_up-color" data-aos="transition-arrow_up-color" data-aos-anchor="#trigger-arrow_up-color" /></AnchorLink>
           <Nav />
           <AboutMe />
           <Skills />

@@ -8,6 +8,7 @@
     width: 35px;
     animation: arrow 2s ease-in-out infinite alternate both;
     color: rgb(179, 175, 175);
+    z-index: 1;
   }
 
   &-arrow_up-color {
@@ -19,6 +20,7 @@
     animation: arrow 2s ease-in-out infinite alternate both;
     color: red;
     opacity: 0;
+    z-index: 1;
   }
 
   @media screen and (min-width: 1200px) {
