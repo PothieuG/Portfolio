@@ -34,7 +34,6 @@
     "style-loader": "*",
     "stylelint": "*",
     "stylelint-config-recommended": "*",
-    "uglifyjs-webpack-plugin": "*",
     "webpack": "*",
     "webpack-cli": "*",
     "webpack-dev-server": "*"
@@ -64,6 +63,7 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-redux": "^7.1.0",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "terser-webpack-plugin": "^2.0.1"
   }
 }
