@@ -1,11 +1,8 @@
 .aboutMe {
 
-  min-height: 100vh;
+  height: 100vh;
   font-family: Helvetica, sans-serif;
   color: rgb(83, 83, 83);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
   &-top {
 
