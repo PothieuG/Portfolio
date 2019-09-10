@@ -32,7 +32,7 @@ const AboutMe = () => (
         <div className="aboutMe-top-interests">
           <h3 className="aboutMe-top-interests-title" data-aos="fade-up">Interests & Likes</h3>
           <ul className="aboutMe-top-interests-ul" data-aos="fade-down">
-            <div className="aboutMe-top-interests-ul-list"> - Sport: <span className="aboutMe-top-interests-ul-list-italic"> tennis, running, table tennis...</span></div>
+            <div className="aboutMe-top-interests-ul-list"> - Sport : <span className="aboutMe-top-interests-ul-list-italic"> tennis, running, table tennis...</span></div>
             <div className="aboutMe-top-interests-ul-list"> - Reading</div>
             <div className="aboutMe-top-interests-ul-list"> - Cinema</div>
             <div className="aboutMe-top-interests-ul-list"> - Video-Games</div>
