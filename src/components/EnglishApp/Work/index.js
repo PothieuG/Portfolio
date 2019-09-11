@@ -38,7 +38,7 @@ const Work = () => (
                 <AnchorLink href="#app"><p className="work-wrapper-cards-card-overlay-visit-text">Visit</p></AnchorLink>
               </div>
               <div className="work-wrapper-cards-card-overlay-footer">
-                <div className="work-wrapper-cards-card-overlay-footer-date">Septembre 2019</div>
+                <div className="work-wrapper-cards-card-overlay-footer-date">September 2019</div>
                 <a href="https://github.com/PothieuG/Portfolio" className="work-wrapper-cards-card-overlay-footer-github">
                   <FaGithub className="work-wrapper-cards-card-overlay-footer-github-icon " width="100%" />
                 </a>

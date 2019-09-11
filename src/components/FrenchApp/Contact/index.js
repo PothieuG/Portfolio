@@ -18,7 +18,7 @@ const Contact = () => {
     <div id="contact">
       <div className="contact">
         <div className="contact-header">
-          <h2 className="contact-header-title" data-aos="fade-right">Contact me !</h2>
+          <h2 className="contact-header-title" data-aos="fade-right">Contactez moi !</h2>
         </div>
         <div className="contact-content" data-aos="fade">
           <div className="contact-content-number">
@@ -30,9 +30,9 @@ const Contact = () => {
         </div>
         <div className="contact-cvBox" data-aos="fade">
           <div className="contact-cvBox-text">
-            Ho, and take a look at &nbsp;
+            Prenez le temps de jeter un oeil à &nbsp;
             <Tippy content={popContent} arrow animation="scale" className="contact-cvBox-text-background" placement="bottom" interactive="true" arrowType="round">
-              <span className="contact-cvBox-text-span">my CV !</span>
+              <span className="contact-cvBox-text-span">mon CV !</span>
             </Tippy>
           </div>
         </div>

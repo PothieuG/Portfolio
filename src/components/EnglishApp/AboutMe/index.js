@@ -37,7 +37,7 @@ const AboutMe = () => (
             <div className="aboutMe-top-interests-ul-list"> - Cinema</div>
             <div className="aboutMe-top-interests-ul-list"> - Video-Games</div>
             <div className="aboutMe-top-interests-ul-list"> - Hanging out with friends</div>
-            <div className="aboutMe-top-interests-ul-list"> - Video-Games development</div>
+            <div className="aboutMe-top-interests-ul-list"> - Space</div>
           </ul>
         </div>
       </div>

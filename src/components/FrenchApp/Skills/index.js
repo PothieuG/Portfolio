@@ -13,7 +13,7 @@ import './skills.scss';
 const Skills = () => (
   <div id="skills">
     <div className="skills">
-      <h2 className="skills-title" data-aos="fade-right">My Skills</h2>
+      <h2 className="skills-title" data-aos="fade-right">Compétences</h2>
       <div className="skills-front">
         <h3 className="skills-front-header" data-aos="fade">Front-End</h3>
         <ul className="skills-front-ul">
@@ -122,7 +122,7 @@ const Skills = () => (
         </ul>
       </div>
       <div className="skills-frameworks" data-aos="fade" data-aos-offset="50">
-        <h3 className="skills-frameworks-header">Frameworks & Tools</h3>
+        <h3 className="skills-frameworks-header">Frameworks & Outils</h3>
         <ul className="skills-frameworks-ul">
           <li className="skills-frameworks-ul-list">
           Ajax
@@ -179,7 +179,7 @@ const Skills = () => (
               <img src={emptyTab} alt="empty_tab" />
             </div>
           </li>
-          <li className="skills-frameworks-ul-list">LAMP environment
+          <li className="skills-frameworks-ul-list">Environnement LAMP
             <div className="skills-front-ul-list-tab">
               <img src={fullTab} alt="full_tab" />
               <img src={fullTab} alt="full_tab" />
@@ -202,7 +202,7 @@ const Skills = () => (
       <div className="skills-management" data-aos="fade" data-aos-offset="50">
         <h3 className="skills-management-header">Management</h3>
         <ul className="skills-management-ul">
-          <li className="skills-management-ul-list">Agiles Method
+          <li className="skills-management-ul-list">Méthode Agiles
             <div className="skills-front-ul-list-tab">
               <img src={fullTab} alt="full_tab" />
               <img src={fullTab} alt="full_tab" />

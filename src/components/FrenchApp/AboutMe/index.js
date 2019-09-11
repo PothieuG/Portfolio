@@ -17,27 +17,27 @@ const AboutMe = () => (
   <div id="aboutMe">
     <div className="aboutMe">
       <div className="aboutMe-top">
-        <h2 className="aboutMe-top-title" data-aos="fade-right" id="trigger-arrow_down-white">Who is Gilles ?</h2>
+        <h2 className="aboutMe-top-title" data-aos="fade-right" id="trigger-arrow_down-white">Qui est Gilles ?</h2>
         <div className="aboutMe-top-description">
-          <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
+          <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Bienvenue sur mon portfolio ! Moi c'est Gilles, je suis développeur web Full Stack</p>
           <p className="aboutMe-top-description-mainDescription" data-aos="fade-down">
-              I just finished &nbsp;
-            <a href="https://oclock.io/"><img src={OclockSVG} alt="logo_oclock" className="aboutMe-top-description-mainDescription-oclock" /></a>
-              's school, a french remote school. I learned there all I need to start my life as web developer.<br />
-              Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
+              Je viens juste de finir ma formation à l'école en téléprésentiel &nbsp;
+            <a href="https://oclock.io/"><img src={OclockSVG} alt="logo_oclock" className="aboutMe-top-description-mainDescription-oclock" /></a>&nbsp;.
+              Elle m'a donné tous les outils nécessaires pour débuter ma carrière de développeur web.<br />
+              En attendant d'avoir une opportunité de travail, je continue, en autodidacte à me former sur un maximum de langages.
             <br />
-              Oh, by the way... I'm registred nurse too.
+              Avant de coder, j'étais infirmier.
           </p>
         </div>
         <div className="aboutMe-top-interests">
-          <h3 className="aboutMe-top-interests-title" data-aos="fade-up">Interests & Likes</h3>
+          <h3 className="aboutMe-top-interests-title" data-aos="fade-up">Hobbies</h3>
           <ul className="aboutMe-top-interests-ul" data-aos="fade-down">
-            <div className="aboutMe-top-interests-ul-list"> - Sport : <span className="aboutMe-top-interests-ul-list-italic"> tennis, running, table tennis...</span></div>
-            <div className="aboutMe-top-interests-ul-list"> - Reading</div>
+            <div className="aboutMe-top-interests-ul-list"> - Sport : <span className="aboutMe-top-interests-ul-list-italic"> tennis, running, sports des raquette</span></div>
+            <div className="aboutMe-top-interests-ul-list"> - Lecture</div>
             <div className="aboutMe-top-interests-ul-list"> - Cinema</div>
-            <div className="aboutMe-top-interests-ul-list"> - Video-Games</div>
-            <div className="aboutMe-top-interests-ul-list"> - Hanging out with friends</div>
-            <div className="aboutMe-top-interests-ul-list"> - Video-Games development</div>
+            <div className="aboutMe-top-interests-ul-list"> - Gaming</div>
+            <div className="aboutMe-top-interests-ul-list"> - Sorties entre amis</div>
+            <div className="aboutMe-top-interests-ul-list"> - L'espace</div>
           </ul>
         </div>
       </div>

@@ -14,6 +14,10 @@ import Switch from 'react-switch';
 import EnglishApp from 'src/components/EnglishApp';
 import FrenchApp from 'src/components/FrenchApp';
 
+// Import Images
+import FrenchFlag from 'src/assets/images/png/france-flag-button-round-icon-256.png';
+import UKFlag from 'src/assets/images/png/united-kingdom-flag-button-round-icon-256.png';
+
 // == Import : local
 import './app.scss';
 
@@ -40,13 +44,35 @@ class App extends React.Component {
 
   render() {
     const { checked } = this.state;
+    let application;
+
+    if (checked) {
+      application = <FrenchApp />;
+    }
+    else {
+      application = <EnglishApp />;
+    }
 
     return (
       <div id="app">
         <div className="app">
-          <Switch onChange={this.handleChange} checked={checked} className="app-switch" />
-          <EnglishApp />
-          <FrenchApp />
+          <div className="app-switch">
+            <Switch
+              onChange={this.handleChange}
+              checked={checked}
+              offColor="#b0b0b0"
+              onColor="#b0b0b0"
+              offHandleColor="#fff"
+              onHandleColor="#fff"
+              uncheckedIcon={
+                <img src={FrenchFlag} className="app-switch-french" alt="frenchFlag" />
+              }
+              checkedIcon={
+                <img src={UKFlag} className="app-switch-uk" alt="ukFlag" fill="gray" />
+              }
+            />
+          </div>
+          {application}
         </div>
       </div>
     );

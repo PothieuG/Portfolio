@@ -13,17 +13,17 @@ const Nav = () => (
     <div className="nav">
       <div className="nav-wrapper">
         <h1 className="nav-wrapper-intro">
-          SALUT
+          Bienvenue ! Je suis
           <br />
-          <span className="nav-wrapper-intro-name">GilleSDGGFFDGDieu</span>
+          <span className="nav-wrapper-intro-name">Gilles Pothieu</span>
         </h1>
         <div className="nav-wrapper-function">
-          Web Developer
+          Web Développeur
         </div>
         <div className="nav-wrapper-subnav">
-          <AnchorLink href="#aboutMe" className="nav-wrapper-subnav--aboutme">Who is Gilles ?</AnchorLink>
-          <AnchorLink href="#skills" className="nav-wrapper-subnav-skills">Skills</AnchorLink>
-          <AnchorLink href="#work" className="nav-wrapper-subnav-work">Work</AnchorLink>
+          <AnchorLink href="#aboutMe" className="nav-wrapper-subnav--aboutme">Qui est Gilles ?</AnchorLink>
+          <AnchorLink href="#skills" className="nav-wrapper-subnav-skills">Compétences</AnchorLink>
+          <AnchorLink href="#work" className="nav-wrapper-subnav-work">Projets</AnchorLink>
           <AnchorLink href="#contact" className="nav-wrapper-subnav-contact">Contact</AnchorLink>
         </div>
       </div>
