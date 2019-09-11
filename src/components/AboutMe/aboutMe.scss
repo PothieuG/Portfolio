@@ -74,6 +74,7 @@
     background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
     height: 10vh;
     align-items: center;
+    transition: all 2s ease-in-out;
 
     & * {
       margin: 0.2em;
