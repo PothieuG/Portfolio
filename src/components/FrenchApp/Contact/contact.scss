@@ -1,0 +1,100 @@
+.contact {
+  min-height: 100vh;
+  padding: 3em 1.5em 0 1.5em;
+  color: rgb(83, 83, 83);
+  line-height: 25px;
+  background: url("../../../assets/images/svg/gilles-01.svg");
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: height 150ms;
+
+  &-header {
+
+    &-title {
+      background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:  bold;
+      font-family: 'Firs-Light', sans-serif;
+      font-size: 2em;
+      padding: 0.1em 0;
+    }
+  }
+
+  &-content {
+    
+    margin-top: 1em;
+    
+    &-number {
+
+      &-text {
+        font-size: 2em;
+        font-weight: bolder;
+        color: gray;
+      }
+    }
+
+    &-mail {
+
+      margin-top: 1em;
+
+      &-text {
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: gray;
+      }
+    }
+  }
+
+  &-cvBox {
+
+    margin-top: 1em;
+
+    &-text {
+      font-size: 1.4em;
+      color: rgb(105, 105, 105);
+
+      &-background {
+        background: rgb(158,45,220);
+        background: linear-gradient(51deg, rgba(158,45,220,0.1) 0%, rgba(13,106,217,0.1) 100%);
+        color: rgb(87, 87, 87);
+        border-radius: 10px;
+      }
+
+      &-span {
+        border: 1px solid rgb(158,45,220);
+        margin-left: 0.1em;
+        padding: 0.25em;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(126, 145, 255, 0);
+        display: inline-block;
+        height: 35px;
+        cursor: pointer;
+        font-family: Helvetica, sans-serif;
+      }
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+
+    &-header {
+      font-size: 1.5em;
+
+      &-title {
+        height: 50px;
+        padding: 0.2em 0;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+    padding: 2em 0 0 1.5em;
+    width: 1000px;
+    margin: auto;
+}
+}

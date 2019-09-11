@@ -1,0 +1,254 @@
+.skills {
+  min-height: 100vh;
+  padding: 3em 1.5em 0 1.5em;
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 83, 83);
+  line-height: 25px;
+  width: 95%;
+  transition: height 150ms;
+
+  &-title {
+    font-size: 2em;
+    background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:  bold;
+    font-family: 'Firs-Light', sans-serif;
+    height: 35px;
+    padding: 0.1em 0;
+  }
+
+  &-front {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.35em;
+      font-weight: bold;
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+
+          &-tab {
+            display: flex;
+
+            img {
+              height: 15px;
+              width: 15px;
+              margin-top:0.15em;
+            }
+          }
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &-back {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.35em;
+      font-weight: bold;
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &-cms {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.35em;
+      font-weight: bold;
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &-frameworks {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.35em;
+      font-weight: bold;
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &-management {
+
+    &-header {
+      margin-top: 1em;
+      font-size: 1.35em;
+      font-weight: bold;
+    }
+
+    &-ul {
+      margin: 0.5em 0;
+      padding-left: 0.5em;
+      font-size: 1.2em;
+      border-left: 1px solid rgb(83, 83, 83);
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        &-frameworks {
+          font-size: 0.7em;
+          font-style: italic;
+          margin-left: 0.5em;
+        }
+
+        &-tab {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    
+    font-size: 1.5em;
+    padding: 10% 15%;
+    line-height: initial;
+
+    &-title {
+      height: 60px;
+    }
+
+    &-front {
+
+      &-ul {
+
+        &-list {
+
+          align-items: center;
+
+          &-frameworks {
+            
+            &-tab {
+
+              img {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+      padding: 2em 0 0 1.5em;
+      width: 1000px;
+      margin: auto;
+  }
+}

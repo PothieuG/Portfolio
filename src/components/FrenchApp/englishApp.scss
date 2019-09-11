@@ -1,0 +1,81 @@
+.englishApp {
+
+  &-arrow_down-white {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+    width: 35px;
+    animation: arrow 2s ease-in-out infinite alternate both;
+    color: rgb(179, 175, 175);
+    z-index: 1;
+  }
+
+  &-arrow_up-color {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
+    width: 35px;
+    animation: arrow 2s ease-in-out infinite alternate both;
+    color: red;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  @media screen and (min-width: 1200px) {
+  
+    &-arrow_down-white {
+      margin: 2em 3%;
+    }
+
+    &-arrow_up-color {
+      margin: 2em 3%;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+  
+    &-arrow_down-white {
+      margin: 2em 10%;
+    }
+
+    &-arrow_up-color {
+      margin: 2em 10%;
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+  
+    &-arrow_down-white {
+      margin: 2em 18%;
+    }
+
+    &-arrow_up-color {
+      margin: 2em 18%;
+    }
+  }
+
+  @media screen and (min-width: 2200px) {
+  
+    &-arrow_down-white {
+      margin: 2em 23%;
+    }
+
+    &-arrow_up-color {
+      margin: 2em 23%;
+    }
+  }
+}
+
+[data-aos="transition-arrow_down-white"] {
+  &.aos-animate {
+    opacity: 0;
+  }
+}
+
+[data-aos="transition-arrow_up-color"] {
+  &.aos-animate {
+    opacity: 1;
+  }
+}

@@ -13,9 +13,9 @@ const Nav = () => (
     <div className="nav">
       <div className="nav-wrapper">
         <h1 className="nav-wrapper-intro">
-          Hi there, my name is
+          SALUT
           <br />
-          <span className="nav-wrapper-intro-name">Gilles Pothieu</span>
+          <span className="nav-wrapper-intro-name">GilleSDGGFFDGDieu</span>
         </h1>
         <div className="nav-wrapper-function">
           Web Developer

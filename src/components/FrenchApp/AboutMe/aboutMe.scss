@@ -1,0 +1,113 @@
+.aboutMe {
+
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 83, 83);
+  transition: height 150ms;
+
+  &-top {
+
+    padding: 3em 1.5em 0 1.5em;
+    height: 90vh;
+    transition: height 150ms;
+
+    &-title {
+      font-size: 2em;
+      background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:  bold;
+      font-family: 'Firs-Light', sans-serif;
+    }
+  
+    &-description {
+  
+      line-height: 20px;
+      
+      &-littleDescription {
+        padding: 1em 0 0.5em;
+        font-weight: bold;
+      }
+    
+      &-mainDescription {
+        padding: 0.5em 0 1em;
+  
+        &-oclock {
+          width: 4em;
+        }
+      }
+    }
+  
+    &-interests {
+      
+      margin-top: 1em;
+  
+      &-title {
+        font-size: 1.1em;
+        background:  rgb(83, 83, 83);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:  bold;
+      }
+  
+      &-ul {
+  
+        padding-top: 0.5em;
+  
+        &-list {
+          padding: 0.1em 0;
+  
+          &-italic {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+  &-socials {
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    justify-content: center;
+    background: rgb(158,45,220);
+    background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
+    height: 10vh;
+    align-items: center;
+    transition: height 150ms;
+
+    & * {
+      margin: 0.2em;
+      color: white;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    
+    font-size: 1.5em;
+
+    &-top {
+
+      padding: 10% 15%;
+
+      &-description {
+        line-height: initial;
+      }
+    }
+
+    &-socials {
+      padding: 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+    &-top {
+      padding: 2em 0 0 1.5em;
+      width: 1000px;
+      margin: auto;
+    }
+  }
+}

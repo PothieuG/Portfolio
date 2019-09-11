@@ -5,7 +5,7 @@ import React from 'react';
 import './contact.scss';
 
 // Import Component
-import PopContent from 'src/components/Contact/PopContent';
+import PopContent from 'src/components/EnglishApp/Contact/PopContent';
 
 // Import Tipy
 import Tippy from '@tippy.js/react';
