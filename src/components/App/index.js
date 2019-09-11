@@ -7,6 +7,9 @@ import React from 'react';
 // Import AOS
 import AOS from 'aos';
 
+// Import React-Switch
+import Switch from 'react-switch';
+
 // Import Components
 import Nav from 'src/components/Nav';
 import AboutMe from 'src/components/AboutMe';
@@ -31,17 +34,27 @@ class App extends React.Component {
     AOS.init({
       duration: 1000,
     });
+    this.state = { checked: false };
+    this.handleChange = this.handleChange.bind(this);
   }
+
 
   // eslint-disable-next-line camelcase
   UNSAFE_componentWillReceiveProps() {
     AOS.refresh();
   }
 
+  handleChange(checked) {
+    this.setState({ checked });
+  }
+
   render() {
+    const { checked } = this.state;
+
     return (
       <div id="app">
         <div className="app">
+          <Switch onChange={this.handleChange} checked={checked} className="app-switch" />
           <AnchorLink href="#aboutMe"><img src={arrowWhite} alt="arrow_down-white" className="app-arrow_down-white" data-aos="transition-arrow_down-white" data-aos-anchor="#trigger-arrow_down-white" /></AnchorLink>
           <AnchorLink href="#app"><img src={arrowColor} alt="arrow_up-color" className="app-arrow_up-color" data-aos="transition-arrow_up-color" data-aos-anchor="#trigger-arrow_up-color" /></AnchorLink>
           <Nav />
