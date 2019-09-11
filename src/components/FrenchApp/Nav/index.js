@@ -13,7 +13,7 @@ const Nav = () => (
     <div className="nav">
       <div className="nav-wrapper">
         <h1 className="nav-wrapper-intro">
-          Bienvenue ! Je suis
+          Bienvenue, je suis
           <br />
           <span className="nav-wrapper-intro-name">Gilles Pothieu</span>
         </h1>

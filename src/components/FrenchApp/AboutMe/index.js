@@ -19,7 +19,7 @@ const AboutMe = () => (
       <div className="aboutMe-top">
         <h2 className="aboutMe-top-title" data-aos="fade-right" id="trigger-arrow_down-white">Qui est Gilles ?</h2>
         <div className="aboutMe-top-description">
-          <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Bienvenue sur mon portfolio ! Moi c'est Gilles, je suis développeur web Full Stack</p>
+          <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Bienvenue sur mon portfolio ! Moi c'est Gilles, je suis développeur web full stack.</p>
           <p className="aboutMe-top-description-mainDescription" data-aos="fade-down">
               Je viens juste de finir ma formation à l'école en téléprésentiel &nbsp;
             <a href="https://oclock.io/"><img src={OclockSVG} alt="logo_oclock" className="aboutMe-top-description-mainDescription-oclock" /></a>&nbsp;.
