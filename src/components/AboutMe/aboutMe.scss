@@ -3,12 +3,13 @@
   height: 100vh;
   font-family: Helvetica, sans-serif;
   color: rgb(83, 83, 83);
-  transition: height 250ms;
+  transition: height 150ms;
 
   &-top {
 
     padding: 3em 1.5em 0 1.5em;
     height: 90vh;
+    transition: height 150ms;
 
     &-title {
       font-size: 2em;
@@ -74,7 +75,7 @@
     background: linear-gradient(51deg, rgba(158,45,220,1) 0%, rgba(13,106,217,1) 100%);
     height: 10vh;
     align-items: center;
-    transition: height 250ms;
+    transition: height 150ms;
 
     & * {
       margin: 0.2em;
