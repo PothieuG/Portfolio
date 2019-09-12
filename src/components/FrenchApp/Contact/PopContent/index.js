@@ -13,10 +13,12 @@ import './popContent.scss';
 const PopContent = () => (
   <div id="popContent">
     <div className="popContent">
-      <a href="https://drive.google.com/open?id=1HMcEqJybEKcWfP5nY-U-44sWU0_UdHxE" download>
+      <a href="https://drive.google.com/file/d/1zpKRsCFs6HqGyRGAeY-9lAL0_6etk49N/view?usp=sharing" download>
         <img src={FrenchFlag} alt="french_flag" className="popContent-flag" />
       </a>
-      <img src={UKFlag} alt="french_flag" className="popContent-flag" />
+      <a href="https://drive.google.com/file/d/1-aIxxkyK4965KpOG3ZMoT-WIQXobZkwp/view?usp=sharing" download>
+        <img src={UKFlag} alt="french_flag" className="popContent-flag" />
+      </a>
     </div>
   </div>
 );
