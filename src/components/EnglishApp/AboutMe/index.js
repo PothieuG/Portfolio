@@ -22,11 +22,11 @@ const AboutMe = () => (
           <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Hello, I'm Gilles ! I'm a french full stack web developer.</p>
           <p className="aboutMe-top-description-mainDescription" data-aos="fade-down">
               I just finished &nbsp;
-            <a href="https://oclock.io/"><img src={OclockSVG} alt="logo_oclock" className="aboutMe-top-description-mainDescription-oclock" /></a>
-              's school, a french remote school. I learned there all I need to start my life as web developer.<br />
-              Right now, I'm just keep learning all my brain can accept, waiting for a job opportunity.
+            <a href="https://oclock.io/"><img src={OclockSVG} alt="O'Clock" className="aboutMe-top-description-mainDescription-oclock" /></a>
+              's program, a french remote school. There, I learned all I need to start my life as a web developer.<br />
+              Right now, I just keep learning all my brain can absorb, looking for a job opportunity.
             <br />
-              Oh, by the way... I'm registred nurse too.
+              Oh, by the way... I'm registered nurse too.
           </p>
         </div>
         <div className="aboutMe-top-interests">

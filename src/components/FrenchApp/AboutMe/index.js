@@ -22,7 +22,7 @@ const AboutMe = () => (
           <p className="aboutMe-top-description-littleDescription" data-aos="fade-up">Bienvenue sur mon portfolio ! Moi c'est Gilles, je suis développeur web full stack.</p>
           <p className="aboutMe-top-description-mainDescription" data-aos="fade-down">
               Je viens juste de finir ma formation à l'école en téléprésentiel &nbsp;
-            <a href="https://oclock.io/"><img src={OclockSVG} alt="logo_oclock" className="aboutMe-top-description-mainDescription-oclock" /></a>&nbsp;.
+            <a href="https://oclock.io/"><img src={OclockSVG} alt="O'Clock" className="aboutMe-top-description-mainDescription-oclock" /></a>&nbsp;.
               Elle m'a donné tous les outils nécessaires pour débuter ma carrière de développeur web.<br />
               En attendant d'avoir une opportunité de travail, je continue, en autodidacte à me former sur un maximum de langages.
             <br />
